@@ -1,0 +1,74 @@
+.from{
+    background: #19B5FE;
+    z-index: 1000;
+    text-align: center;
+    height: 400px;
+    padding: 20px 50px;
+}
+img{
+    z-index: -100;
+    margin-bottom: -327px;
+    margin-left: 453px;
+}
+input, p>textarea{
+    border: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    font-size: 14px;
+    color:#fff;
+    
+}
+ p>textarea{
+     height: 100px;
+     width: 100%;
+     margin-left: 15px;
+ }
+ .row{
+     margin-bottom: 20px;
+ }
+
+ .from h3{
+     position: relative;
+     font-size: 26px;
+     color: #fff;
+     text-transform: uppercase;
+     margin-bottom: 50px;
+ }
+
+ .from h3::before {
+     position: absolute;
+     bottom: -13px;
+     left: 50%;
+     width:130px;
+     margin-left: -65px;
+     background: #fff;
+     height: 1px;
+     content: "";
+ }
+ .from h3::after{
+     content: "";
+     position: absolute;
+     left: 50%;
+     height: 13px;
+     width: 13px;
+     border-radius: 50%;
+     border: 2px solid #fff;
+     bottom: -18.5px;
+     margin-left: -6.5px;
+ }
+
+
+ .button button[type="submit"] {
+     border: none;
+     background: #fff;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 10px;
+     border-radius: 5px;
+     color:#19B5FE;
+ }
+
+ input:focus, p>textarea:focus{
+     border: none;
+ }
